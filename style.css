@@ -1,11 +1,21 @@
+* {
+    font-family: roboto, sans-serif;
+}
+
 /* Banner styling */
 a {
     text-decoration: none;
     color: white;
 }
 
+#logo-text{
+    font-weight: bolder;
+}
+
 .top-page {
-    background-color: #60376b;
+    display: flex;
+    flex-direction: column;
+    background-color: #d181a8;
     color: #ffffff;
     padding: 20px;
     height: 500px;
@@ -14,7 +24,7 @@ a {
 header {
     display: flex;
     justify-content:  space-between;
-    margin: 0px 150px;
+    margin: 0px 120px;
 }
 
 .header-links {
@@ -23,7 +33,24 @@ header {
 }
 
 .header-content {
+    flex: 1;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 0px -100px;
 }
 
+.left-text {
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+#first-button {
+    background-color: #3882F6;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    border: 1px solid darkblue;
+    color: white;
+    font-weight: bold;
+}
