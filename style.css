@@ -1,0 +1,29 @@
+/* Banner styling */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-page {
+    background-color: #60376b;
+    color: #ffffff;
+    padding: 20px;
+    height: 500px;
+}
+
+header {
+    display: flex;
+    justify-content:  space-between;
+    margin: 0px 150px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+}
+
