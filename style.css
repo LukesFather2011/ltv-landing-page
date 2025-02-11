@@ -1,4 +1,7 @@
-* {
+body {
+      /* Use this to adjust filing the viewport */
+    height: 100vh;
+    margin: 0;
     font-family: roboto, sans-serif;
 }
 
@@ -18,7 +21,6 @@ a {
     background-color: #d181a8;
     color: #ffffff;
     padding: 20px;
-    height: 500px;
 }
 
 header {
@@ -35,9 +37,9 @@ header {
 .header-content {
     flex: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 0px -100px;
+    margin: 0px 120px;
 }
 
 .left-text {
@@ -53,4 +55,29 @@ header {
     border: 1px solid darkblue;
     color: white;
     font-weight: bold;
+}
+
+/* middle content with photo line */
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#content-heading {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* used for the text beneath the 4 images */
+.images p {
+    width: 150px;
 }
