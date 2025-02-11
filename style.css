@@ -81,3 +81,30 @@ header {
 .images p {
     width: 150px;
 }
+
+/* handles the quote section */
+.quote {
+    padding: 40px 400px;
+    color: white;
+    background-color: #60376b;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-quote {
+    font-size: 30px;
+    font-weight: bolder;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+
+#speaker {
+    font-size: 18pt;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
