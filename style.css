@@ -88,6 +88,7 @@ header {
     background-color: #fcffde;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #main-quote {
@@ -97,15 +98,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: -30px;
-}
-
-#speaker {
-    font-size: 18pt;
-    font-weight: bold;
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
 }
 
 /* Action container, handles the call to action button and statement */
