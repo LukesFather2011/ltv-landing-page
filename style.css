@@ -108,3 +108,29 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+
+/* Action container, handles the call to action button and statement */
+.action-container {
+    padding: 40px 300px;
+}
+
+.action-box {
+    border-radius: 10%;
+    background-color: #fcffde;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text h2 {
+    margin-bottom: -14px;
+}
+
+.cta-box {
+    border: 1px solid black;
+    background-color: #fcffde;
+    border-radius: 10%;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+}
