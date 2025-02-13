@@ -85,8 +85,7 @@ header {
 /* handles the quote section */
 .quote {
     padding: 40px 400px;
-    color: white;
-    background-color: #60376b;
+    background-color: #fcffde;
     display: flex;
     flex-direction: column;
 }
@@ -116,7 +115,8 @@ header {
 
 .action-box {
     border-radius: 10%;
-    background-color: #fcffde;
+    background-color: #60376b;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -127,10 +127,20 @@ header {
 }
 
 .cta-box {
-    border: 1px solid black;
-    background-color: #fcffde;
+    border: 1px solid white;
+    background-color: #60376b;
+    color: white;
     border-radius: 10%;
     font-weight: bold;
     width: 150px;
     height: 50px;
+}
+
+/* Footer area */
+footer {
+    background-color: #d181a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
